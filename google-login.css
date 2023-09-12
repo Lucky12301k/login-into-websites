@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto";
+}
+a {
+  text-decoration: none;
+  color: #1a73e8;
+  display: block;
+  font-size: 14px;
+}
+.container {
+  max-width: 450px;
+  border: 1.3333379001px solid rgb(228, 228, 228);
+  margin: auto;
+  margin-top: 4rem;
+  border-radius: 10px;
+  padding: 2rem;
+  height: 505px;
+  /* text-align: center; */
+}
+.top-content {
+  text-align: center;
+}
+img {
+  width: 80px;
+  margin: 12px 0;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.heading {
+  margin-bottom: 30px;
+}
+input[type="email"] {
+  display: block;
+  border: 1px solid rgb(228, 228, 228);
+  font-size: 16px;
+  width: 100%;
+  height: 55px;
+  padding: 0 15px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  position: relative;
+}
+.inputs {
+  position: relative;
+}
+.input-label {
+  position: absolute;
+  top: 15px;
+  font-size: 1.1rem;
+  left: 14px;
+  color: rgb(122, 122, 122);
+  font-weight: 100;
+  transition: 0.1s ease;
+  background-color: white;
+  padding: 0 5px;
+}
+
+input[type="email"]:focus ~ .input-label {
+  top: -7px;
+  color: #1864c9;
+  font-size: 13px;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+input[type="email"]:target ~ .input-label {
+  top: -7px;
+  color: #1864c9;
+  font-size: 13px;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+}
+.input:focus {
+  border: 2px solid #1b7cfa;
+}
+.link-btn {
+  margin-bottom: 2rem;
+}
+.color {
+  color: rgb(90, 90, 90);
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 50px;
+  margin-left: 5.47px;
+}
+
+.link-btn {
+  margin-left: 5.75px;
+  color: #0963da;
+
+
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.create-btn {
+  font-size: 13.8px;
+  border: none;
+  background-color: transparent;
+  color:  #276fceed;
+  font-weight: bold;
+  cursor: pointer;
+  height: 35px;
+  padding: 10px 5px;
+  margin-top: 17.5px;
+  margin-left: 1.8px;
+}
+.next-btn {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  height: 38px;
+  padding: 0 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 17.75px;
+  margin-right: 5px;
+
+}
+.create-btn:hover {
+  background-color: #e8f2ff6e;
+  /* transition: 0.2s all ease-in; */
+}
+.next-btn:hover {
+  background-color: #1864c9;
+}
+
+footer {
+    padding: 15px 86px;
+  }
+
+  
+  footer ul {
+    
+    display: flex;
+    justify-content: center;
+    gap: 37px;
+    margin: 0 auto 20px;
+    margin-top: -17px;
+    margin-left: 270px;
+  }
+  footer ul a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 14px;
+    list-style: none;
+    color: rgb(115, 115, 115);
+    cursor: pointer;
+  }
